@@ -13,9 +13,11 @@ https://cloud.google.com/functions/docs/configuring/env-var
 ## Step 3
 Just add to `firebase.json`
 
-```"rewrites": [
+```
+"rewrites": [
   {
     "source": "/sitemap.xml",
     "function": "yourFunctionName"
   },
 ]
+```
